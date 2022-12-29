@@ -10,6 +10,7 @@ public class JdbcEx
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/java","root","root");
 		System.out.println("Connected..");
+		System.out.println("modified");
 	}
 
 }
